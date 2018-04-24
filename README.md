@@ -1,5 +1,6 @@
 # CarND-Path-Planning-Project
-Self-Driving Car Engineer Nanodegree Program
+
+This repository implements the Path Planning Project of the Self-Driving Car Engineer Nanodegree Program, the project follows a simple implementation who try to travel at maximun speed (bellow limit) and change lane in case of is required to keep the pace, avoiding collision, the project use spline to smooth the path and simple states to manage the next posible action: follow car, change left lane, change right lane. The [Write Up](WRITEUP.md) describe how the project meets the requirements of the [rubric](https://review.udacity.com/#!/rubrics/1020/view)
    
 ### Simulator.
 You can download the Term3 Simulator which contains the Path Planning Project from the [releases tab (https://github.com/udacity/self-driving-car-sim/releases/tag/T3_v1.2).
